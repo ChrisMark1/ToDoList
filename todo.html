@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta charset ="ISO-8859-7">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="todo.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+ <script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+  
+   <script type="text/javascript" src="allin.js">
+   </script>
+  
+  
+
+   </head>
+   
+   
+   <body>
+   <div class="w3-container w3-tangerine" id="stats" hidden>
+     <p class="w3-jumbo">Welcome , 
+     <p class="w3-jumbo" id="user-name">
+	 <p class="w3-jumbo" id="user-name1">
+	 </p>
+	 </p>
+</div>
+<div class="w3-container w3-tangerine" id="stats1" hidden>
+     <p class="w3-jumbo">Thanks for stopping by!
+We hope to see you again soon... </p>
+     
+	 
+	 
+</div>
+ <form >
+     	<input type="button" class="btn btn-success btn-lg btn-block" name="login" id="but" value="Press to login" onclick="window.location.href='login.html'" >
+  </form>
+
+
+   <div class="w3-container w3-tangerine" id="ticker-container">
+	<div class = "ticker-text">
+    <p class="w3-jumbo"> Welcome to my TODO List ! You must sign in first or create your account to use this app!</p>
+	</div>
+   </div>
+   
+   
+
+   
+   
+   
+   <form id="log1" hidden >
+   <input type="button" id="log" class="btn btn-danger btn-lg btn-block log" value="Logout">
+   </form>
+   
+   <div id="about1" >
+   
+   <br>
+   <div id="mytodolist" class="header">
+	 <form id="todo-form">
+	 <p id ="addNote">Add your Note!</p><br>
+     <input type="text" class ="form-control" id="myInput" placeholder="Title..."><br>
+     <input type="submit" id="add1" class="btn btn-primary addV" value="Add Note!" disabled>
+	 </form>
+   </div>
+
+   
+   <form>
+<ol id="myUL" class="list-group list_of_items">
+</ol>
+
+   </form>
+   
+  </div> 
+  
+  
+  <script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+ 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+  
+  <footer>
+  <div class="w3-container w3-tangerine" id="footer">
+     <p class="w3-jumbo">
+					   &copy;2017
+					   Designed By : 
+					   <span>Chris Markellos</span>
+
+  
+   </p>
+   </div>
+  </footer>
+  
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

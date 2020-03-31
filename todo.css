@@ -1,0 +1,252 @@
+
+#ticker-container {
+	
+	top:-10px;
+	width: 100%;
+	height: 2.9%;
+	border: 2px ;
+	overflow: hidden;
+}
+.ticker-text {
+	height: 150%;
+    white-space:nowrap;
+    display:inline-block;
+}
+
+
+#but{
+	position:absolute;
+	left:307px;
+	width:175px;
+	background:url('todo1.jpg') no-repeat left center;
+	background-size:30px;
+	background-color:green;
+   padding-left:20px;
+   top:60px;
+	
+}
+#but:hover{
+	background-color:darkgreen;
+}
+    
+#todo1 .todo-logo {
+  margin: 20px;
+}
+
+#todo1 .todo-logo img {
+  max-width: 100%;
+}
+
+#todo1 .todo-container {
+  background: rgba(0, 0, 0, 0.5);
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+#addNote{
+	position:absolute;
+	top:-60px;
+	font-family: "Tangerine", serif;
+	font-size:45px;
+	font-weight: bold;
+	left:58px;
+	color:white;
+}
+
+
+
+
+
+#todo1 .actions  {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+#todo1 .btn-get-started {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+  color: #fff;
+}
+
+#todo1 .btn-get-started:hover {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.text_holder {
+display: block;
+max-width: 50%;
+word-wrap: break-word;
+}
+
+
+h1{
+  padding:10px 50px;
+  border-radius: 3px;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  float:center;
+  size:10px;
+  text-align:center;
+}
+/
+body {
+  background: #fff;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+
+#mytodolist {
+  position:absolute;
+  left:300px;
+  width: 600px;
+  float: center;
+  height:400px;
+  background-color: rgba(0,0,0,0.5);
+  background: url(start.jpg) top center ;
+  margin: 0 5px;
+  min-height: 240px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+#mytodolist input {
+  width: 300px;
+  margin: 1px 5px;
+  float:center;
+
+}
+
+#mytodolist input {
+  height: 30px;
+}
+
+#todo-form {
+	
+	position:absolute;
+	left:150px;
+	top:200px;
+	
+}
+
+
+.todo-task {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.5);
+  width: 230px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.task-list input[type="button"] {
+  width: 100px;
+  margin: 5px;
+}
+
+.todo-task > .task-header {
+  font-weight: bold;
+}
+
+.todo-task > .task-date {
+  font-size: small;
+  font-style: italic;
+}
+
+.todo-task > .task-description {
+  font-size: smaller;
+}
+
+h3 {
+  text-align: center;
+}
+	
+	
+#myUL{
+	position:absolute;
+	top:450px;
+	left:300px;
+	width:600px;
+	
+}
+
+#main {
+margin-top: 100px;
+background-color: #ffffff;
+border-radius: 5px;
+width: 10%;
+border: 1px solid #545454;
+}
+#log{
+	position:absolute;
+	left:800px;
+	width:100px;
+	
+	
+}
+
+
+
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+	font-size:33px;
+	font-weight: bold;
+}
+
+#user-name{
+	position:absolute;
+	top:1px;
+	left:110px;
+	
+	
+}
+
+
+#user-name1{
+	position:absolute;
+	top:50px;
+	left:10px;
+}
+
+#about1{
+	position:absolute;
+	top:100px;
+}
+
+#stats1{
+	position:absolute;
+	top:550px;
+	left:360px;
+}
+.log{
+	position:absolute;
+	left:800px;
+	top:60px;
+	width:100px;
+	
+	
+}
+
+
+#footer {
+   position:fixed;
+   left:310px;
+   top:120px;
+   height:50px;
+   width:100%;//or 600 pixels if you don't want it to fill the bottom of the page
+   
+}
+
+
+
